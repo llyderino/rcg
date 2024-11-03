@@ -1,6 +1,7 @@
 ---
 - name: execute ansible roles
   hosts: linux
+  become: yes  
   vars_files:
     - vars.yaml
   roles:
