@@ -1,0 +1,7 @@
+---
+- name: execute ansible roles
+  hosts: linux
+  vars_files:
+    - vars.yaml
+  roles:
+    - apache
