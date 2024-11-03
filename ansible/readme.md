@@ -7,4 +7,5 @@ ansible-playbook ansible-roles.yaml -i inventory
 
 ## additional notes
 1. make sure keypair.pem has the right permission
-2. ec2 security group to allow http connection
+2. keypair.pem is stored locally
+3. ec2 security group to allow http connection
